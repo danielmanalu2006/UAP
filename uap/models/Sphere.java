@@ -56,8 +56,8 @@ public class Sphere extends Shape implements ThreeDimensional, PiRequired, MassC
     @Override
     public void printInfo() {
         System.out.println("=============================================");
-        System.out.printf("Volume                : %.0f\n", getVolume());
-        System.out.printf("Luas permukaan        : %.0f\n", getSurfaceArea());
+        System.out.printf("Volume                : %.2f\n", getVolume());
+        System.out.printf("Luas permukaan        : %.2f\n", getSurfaceArea());
         System.out.printf("Massa                 : %.2f\n", getMass());
         System.out.printf("Massa dalam kg        : %.2f\n", gramToKilogram());
         System.out.printf("Biaya kirim           : Rp %.0f\n", calculateCost());
